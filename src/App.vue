@@ -1,10 +1,13 @@
 <template>
   <div id="app">
       <h1>DUMP - its music platform. </h1>
-          <a class="header_nav__link" href="#Home">Home</a>
-          <a class="header_nav__link" href="#Artist Songs">Artist Songs</a>
-          <a class="header_nav__link" href="#Songs">Songs</a>
-          <a class="header_nav__link" href="#Artist">Artist</a>
+      <div class="">
+        <a id="header_nav__link" href="#Home">Home</a>
+        <a id="header_nav__link" href="#Artist Songs">Track</a>
+        <a id="header_nav__link" href="#Artist">Artist</a>
+        <a id="header_nav__link" href="#Songs">Album</a>
+        <a id="header_nav__link" href="#Songs">Lyrics</a>
+      </div>
           <div class="">
             <form>
               <input type="search" placeholder="Type here...">
@@ -14,13 +17,13 @@
     </div>
 </template>
 
+
 <script>
 
 export default {
   name: 'app',
-  components: {
+
   }
-}
 </script>
 
 <style>
@@ -40,10 +43,18 @@ body {
   margin: 0px;
 }
 
-a {
+#header_nav__link {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
+
+#header_nav__link:hover{
+  color: #5c5cd6;
+}
+
 
 * {box-sizing: border-box;}
 form {
@@ -54,7 +65,6 @@ form {
 input {
   width: 80%;
   height: 30px;
-  padding-left: 10px;
   border: 2px solid black;
   border-radius: 5px;
   outline: none;
@@ -65,7 +75,7 @@ button {
   position: absolute;
   top: 0;
   right: 0px;
-  width: 45px;
+  width: 55px;
   height: 30px;
   border: none;
   background: #5c5cd6;
@@ -84,7 +94,7 @@ button:before {
 
 h1 {
   font-size: 40px;
-  margin-right: 50px;
+  margin-right: 70px;
   color: #5c5cd6;
 }
 
