@@ -1,6 +1,6 @@
-<template>
-  <div id="app">
-    <div id="header">
+<template lang="html">
+  <div>
+    <!-- <div id="header">
       <h1>DUMP - lyrics track platform.  </h1>
       <div class="">
         <a id="header_nav__link" href="#Home">Home</a>
@@ -12,42 +12,35 @@
       <div class="">
         <form>
           <input type="search" placeholder="Type here...">
-          <button id="btn_nav" type="search">Search</button>
+          <button type="search">Search</button>
         </form>
       </div>
+    </div> -->
+    <img id="back_foto" src="/images/elton-john-830x535.png" alt="backfoto">
+    <div id="home_content">
+      <h1>DUMP</h1>
+      <h2>Its a catalog of song lyrics and translations. <br>
+         Search for songs by artist, title or lyrics. Receive the lyrics in return. <br>
+         Also provides detailed metadata about the artists who performed it, the genre, influences, related artists and more. </h2>
     </div>
-    <HomeContent />
-    <HomeFooter />
-    </div>
+  </div>
 </template>
 
-
 <script>
-import HomeContent from "@/components/HomeContent"
-import HomeFooter from "@/components/HomeFooter"
-
-
 export default {
-  name: 'app',
-  components: {
-    HomeContent,
-    HomeFooter
-  }
-  }
+}
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+<style lang="css" scoped>
+div {
   display: flex;
-  flex-direction:column;
-
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 900px;
 }
 
-body {
+/* body {
   margin: 0px;
 }
 
@@ -87,7 +80,7 @@ input {
   background: lightgreen;
   color: black;
 }
-#btn_nav {
+button {
   position: absolute;
   top: 0;
   right: 0px;
@@ -112,7 +105,26 @@ h1 {
   font-size: 40px;
   margin-right: 70px;
   color: #5c5cd6;
+} */
+
+
+#back_foto {
+  position: absolute;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
 }
 
+#home_content {
+  position: relative;
+}
 
+h1 {
+  font-size: 50px;
+  color: #5c5cd6;
+}
+
+h2 {
+  font-size: 35px;
+}
 </style>
