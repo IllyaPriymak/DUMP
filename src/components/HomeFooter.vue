@@ -46,7 +46,7 @@ div {
 }
 
 .btn_footer {
-  background-color: none;
+  background-color: black;
 }
 
 

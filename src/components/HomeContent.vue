@@ -4,7 +4,7 @@
       <h1>DUMP - lyrics track platform.  </h1>
       <div class="">
         <a id="header_nav__link" href="#Home">Home</a>
-        <a id="header_nav__link" href="#Artist Songs">Track</a>
+        <a id="he ader_nav__link" href="#Artist Songs">Track</a>
         <a id="header_nav__link" href="#Artist">Artist</a>
         <a id="header_nav__link" href="#Songs">Album</a>
         <a id="header_nav__link" href="#Songs">Lyrics</a>
@@ -40,10 +40,10 @@ div {
   height: 900px;
 }
 
-/* body {
+body {
   margin: 0px;
 }
-
+/*
 #header {
   display: flex;
   align-items: center;
@@ -110,7 +110,7 @@ h1 {
 
 #back_foto {
   position: absolute;
-  opacity: .4;
+  opacity: .3;
   width: 100%;
   height: 100%;
 }

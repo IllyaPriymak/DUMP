@@ -3,11 +3,10 @@
     <div id="header">
       <h1>DUMP - lyrics track platform.  </h1>
       <div class="">
-        <a id="header_nav__link" href="#Home">Home</a>
-        <a id="header_nav__link" href="#Artist Songs">Track</a>
-        <a id="header_nav__link" href="#Artist">Artist</a>
-        <a id="header_nav__link" href="#Songs">Album</a>
-        <a id="header_nav__link" href="#Songs">Lyrics</a>
+        <router-link id="header_nav__link" to="/">Home</router-link>
+        <router-link id="header_nav__link" to="/songs">Songs</router-link>
+        <router-link id="header_nav__link" to="/artist">Artist</router-link>
+        <router-link id="header_nav__link" to="/album">Album</router-link>
       </div>
       <div class="">
         <form>
@@ -16,24 +15,28 @@
         </form>
       </div>
     </div>
-    <HomeContent />
-    <HomeFooter />
+    <router-view />
     </div>
 </template>
 
 
-<script>
-import HomeContent from "@/components/HomeContent"
-import HomeFooter from "@/components/HomeFooter"
+ <script>
 
 
 export default {
   name: 'app',
+  data() {
+    return {
+    }
+  },
   components: {
-    HomeContent,
-    HomeFooter
+  },
+  mounted() {
+    fetch(`http://lyric-api.herokuapp.com/api/find/Drake/Energy`)
+      .then(response => response.json())
+      .then(json => console.log(json))
   }
-  }
+}
 </script>
 
 <style>
@@ -47,7 +50,7 @@ export default {
 
 }
 
-body {
+ body {
   margin: 0px;
 }
 
@@ -104,9 +107,6 @@ button:before {
   font-size: 16px;
   color: #F9F0DA;
 }
-
-
-
 
 h1 {
   font-size: 40px;
