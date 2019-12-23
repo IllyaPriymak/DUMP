@@ -1,11 +1,17 @@
 <template lang="html">
-  <div class="">
+  <div class="everything">
     <h1>Album</h1>
+    <!-- <HomeFooter /> -->
   </div>
 </template>
 
 <script>
+// import HomeFooter from "@/components/Home.Compon/HomeFooter"
+
 export default {
+  components: {
+    // HomeFooter
+  }
 }
 </script>
 

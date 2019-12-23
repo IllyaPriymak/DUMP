@@ -1,11 +1,17 @@
 <template lang="html">
   <div class="">
     <h1>Artist</h1>
+    <!-- <HomeFooter /> -->
   </div>
 </template>
 
 <script>
+// import HomeFooter from "@/components/Home.Compon/HomeFooter"
+
 export default {
+  components: {
+    // HomeFooter
+  }
 }
 </script>
 
@@ -13,4 +19,5 @@ export default {
 div {
   text-align: center;
 }
+
 </style>

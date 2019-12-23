@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import HomeContent from "@/components/HomeContent"
-import HomeFooter from "@/components/HomeFooter"
+import HomeContent from "@/components/Home.Compon/HomeContent"
+import HomeFooter from "@/components/Home.Compon/HomeFooter"
 
 
 export default {
- name: 'app',
- components: {
-   HomeContent,
-   HomeFooter
- }
+  name: 'app',
+  components: {
+    HomeContent,
+    HomeFooter
+  },
 }
 </script>
 

@@ -19,23 +19,29 @@
     </div>
 </template>
 
-
  <script>
-
 
 export default {
   name: 'app',
-  data() {
-    return {
-    }
-  },
+  // props: ["songs"],
+  // data() {
+  //   return {
+  //     songs: [
+  //       {id: 1, title: "Koas", completed: false},
+  //       {id: 2, title: "Snorkelmannen Ø Hans Vänner", completed: false},
+  //       {id: 3, title: "Stockholm By Night", completed: false},
+  //     ]
+  //   }
+  // },
   components: {
+
   },
-  mounted() {
-    fetch(`http://lyric-api.herokuapp.com/api/find/Drake/Energy`)
-      .then(response => response.json())
-      .then(json => console.log(json))
-  }
+  // mounted() {
+  //   fetch(`https://api.discogs.com/artists/1/releases?page&per_page`)
+  //     .then(response => response.json)
+  //     .then(json => console.log(json))
+  //
+  // }
 }
 </script>
 
@@ -59,7 +65,7 @@ export default {
   align-items: center;
   justify-content: space-around;
   background-color: lightgreen;
-
+  height: 90px;
 }
 
 #header_nav__link {

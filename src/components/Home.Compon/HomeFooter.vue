@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
     <div id="">
-      <h3>DUMP *</h3>
+      <h3>DUMP.</h3>
     </div>
 
     <div class="social_icon">
       <h3>If you whant contact me: </h3>
       <div class="">
         <button class="btn_footer" onclick=" window.open('https://lovkille@gmail.com','_blank')">
-          <img id="icon" src="images/gmail-30-722694.png" alt="inst">
+          <img id="icon" src="images/gmail-30-722694.png" alt="gmail">
         </button>
       </div>
       <div class="">
@@ -21,11 +21,7 @@
           <img id="icon" src="images/soundcloud-icon-1.svg" alt="sc">
         </button>
       </div>
-      <!-- <a href="#"><img id="icon" src="images/gmail-30-722694.png" alt="inst"></a> -->
-      <!-- <a href="#"><img id="icon" src="images/philipp-dittberner-instagram-icon.png" alt="inst"></a> -->
-      <!-- <a href="#"><img id="icon" src="images/soundcloud-icon-1.svg" alt="sc"></a> -->
     </div>
-
   </div>
 </template>
 
@@ -65,4 +61,5 @@ div {
 h3 {
   color: #5c5cd6;
 }
+
 </style>
