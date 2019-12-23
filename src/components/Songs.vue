@@ -28,10 +28,10 @@ export default {
     }
   },
   mounted() {
-    fetch('https://api.discogs.com/artists/1/releases?page&per_page=75')
+    fetch(`https://jsonplaceholder.typicode.com/todos/`)
       .then(response => response.json())
       .then(json => {
-        this.songs = json
+        this.todos = json
   })
 },
   methods: {
