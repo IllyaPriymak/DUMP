@@ -10,8 +10,8 @@
       </div>
       <div class="">
         <form>
-          <input type="search" placeholder="Type here...">
-          <button id="btn_nav" type="search">Search</button>
+          <input id="nav_search" type="search" placeholder="Type here...">
+          <button id="btn_search" type="search">Search</button>
         </form>
       </div>
     </div>
@@ -23,7 +23,6 @@
 
 export default {
   name: 'app',
-  // props: ["songs"],
   // data() {
   //   return {
   //     songs: [
@@ -37,9 +36,11 @@ export default {
 
   },
   // mounted() {
-  //   fetch(`https://api.discogs.com/artists/1/releases?page&per_page`)
-  //     .then(response => response.json)
-  //     .then(json => console.log(json))
+  //   fetch('https://jsonplaceholder.typicode.com/todos/1')
+  // .then(response => response.json())
+  // .then(json => {
+  //   this.songs = json
+  // })
   //
   // }
 }
@@ -96,7 +97,7 @@ input {
   background: lightgreen;
   color: black;
 }
-#btn_nav {
+#btn_search {
   position: absolute;
   top: 0;
   right: 0px;

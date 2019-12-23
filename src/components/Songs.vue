@@ -1,28 +1,50 @@
 <template lang="html">
   <div class="">
-    <h1>Songs</h1>
+    <h1>Artist songs:</h1>
+    <hr>
+    <AddSongs
+    @add-todo="AddTodo"
+    />
     <SongsList
-    v-bind:songs="songs"
+    v-bind:todos="todos"
+    @removeTodo="removeTodo"
     />
   </div>
 </template>
 
 <script>
 import SongsList from "@/components/Songs.Compon/SongsList"
+import AddSongs from "@/components/Songs.Compon/AddSongs"
 
 export default {
   name: 'app',
   data() {
     return {
-      songs: [
-        {id: 1, title: "Koas", completed: false},
-        {id: 2, title: "Snorkelmannen Ø Hans Vänner", completed: false},
-        {id: 3, title: "Stockholm By Night", completed: false},
+      todos: [
+        {id: 1, title: "Tyler, The Creator", completed: false},
+        {id: 2, title: "Drake", completed: false},
+        {id: 3, title: "Asap Rocky", completed: false},
       ]
     }
   },
+  mounted() {
+    fetch('https://api.discogs.com/artists/1/releases?page&per_page=75')
+      .then(response => response.json())
+      .then(json => {
+        this.songs = json
+  })
+},
+  methods: {
+    removeTodo(id) {
+       this.todos = this.todos.filter(t => t.id !== id)
+    },
+    AddTodo (todo) {
+      this.todos.push(todo)
+    }
+  },
   components: {
-    SongsList
+    SongsList,
+    AddSongs
   }
 }
 </script>
