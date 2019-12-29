@@ -20,4 +20,9 @@ div {
   text-align: center;
 }
 
+h1 {
+  font-size: 60px;
+  color: #5c5cd6;
+}
+
 </style>

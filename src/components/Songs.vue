@@ -7,7 +7,7 @@
     />
     <SongsList
     v-bind:todos="todos"
-    @removeTodo="removeTodo"
+    @remove-todo="removeTodo"
     />
   </div>
 </template>
@@ -26,6 +26,7 @@ export default {
         // {id: 3, title: "Asap Rocky", completed: false},
       ]
     }
+    // https://jsonplaceholder.typicode.com/todos/?_limit=10
   },
   mounted() {
     fetch(`https://jsonplaceholder.typicode.com/todos/?_limit=10`)
@@ -52,5 +53,10 @@ methods: {
 <style lang="css" scoped>
 div {
   text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: #5c5cd6;
 }
 </style>
