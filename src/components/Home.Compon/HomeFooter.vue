@@ -5,7 +5,7 @@
     </div>
 
     <div class="social_icon">
-      <h3>If you whant contact me: </h3>
+      <h3>Contact me: </h3>
       <div class="">
         <button class="btn_footer" onclick=" window.open('https://lovkille@gmail.com','_blank')">
           <img id="icon" src="images/gmail-30-722694.png" alt="gmail">

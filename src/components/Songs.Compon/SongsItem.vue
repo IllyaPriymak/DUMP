@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
       <span>
-      <strong>{{index + 1}}.</strong>
+      <!-- <strong>{{index + 1}}.</strong> -->
       {{todo.title}}
     </span>
     <button
@@ -24,24 +24,23 @@ export default {
 
 <style lang="css" scoped>
 div {
-  border: 1px solid green;
+  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   text-align: center;
   padding: .5rem 2rem;
   margin-bottom: 1rem;
-
 }
 
 span {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 button {
   border-radius: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
   color: white;
 }
 

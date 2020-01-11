@@ -33,8 +33,8 @@ body {
 #back_foto {
   position: absolute;
   opacity: .3;
-  width: 100%;
-  height: 100%;
+  width: 2000px;
+  height: 900px;
 }
 
 #home_content {

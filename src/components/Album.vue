@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="everything">
-    <h1>Album</h1>
+    <h1>album</h1>
     <!-- <HomeFooter /> -->
   </div>
 </template>

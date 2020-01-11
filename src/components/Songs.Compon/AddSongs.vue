@@ -1,7 +1,7 @@
 <template lang="html">
   <form id="form_content" @submit.prevent="onSubmit">
     <input id="search_content" type="text" v-model="title">
-    <button type="submit">Create</button>
+    <button id="add_button" type="submit">add new song</button>
   </form>
 </template>
 
@@ -36,6 +36,10 @@ export default {
 }
 #search_content{
   background-color: white;
+}
+
+#add_button {
+  border-radius: 10%;
 }
 
 </style>

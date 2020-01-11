@@ -1,0 +1,121 @@
+<template lang="html">
+  <div>
+    <div id="lyrics">
+      <div id="name_cover">
+        <h1 id="track_name">Asap Rocky - LSD</h1>
+        <img id="cover" src="images/asap-y-lsd-cover.jpg" alt="november">
+        <p id="text">Produced: by Hector Delgado, A$AP Rocky, FnZ & Jim Jonsin <br>
+          Album: AT.LONG.LAST.A$AP</p>
+        <br>
+      </div>
+      <div id="lyrics_content">
+        LYRICS:
+        <p id="text">
+          [Verse]<br>
+I know I dream about her all day <br>
+I think about her with her clothes off <br>
+I'm ridin' 'round with my system bumpin' LSD <br>
+I look for ways to say "I love you" <br>
+But I ain't into makin' love songs <br>
+Baby, I'm just rappin' to this LSD <br>
+She ain't a stranger to the city life <br>
+I introduced her to this hippy life <br>
+We make love under pretty lights, LSD (Acid)<br>
+I get a feelin' it's a trippy night <br>
+Them other drugs just don't fit me right <br>
+Girl, I really fuckin' want love, sex, dream <br>
+Another quarter to the face system <br>
+Make no mistakes, it's all, a leap of faith for love <br>
+ It takes a place in, feelin' that you crave doin' love, sex, dreams <br>
+<br>
+[Chorus]<br>
+It started in Hollywood <br>
+Dreamin' of sharin' love <br>
+My tongue at a loss for words <br>
+Cause my feelings just said it all <br>
+Party just started up Dreamin' of sharin' worlds  <br>
+Held this feeling for way too long Said, "I really wanna let it go" <br>
+<br>
+[Bridge 1]<br>
+I've been gettin' fly because the gimmick's so dope I've been getting high cause I  figured Lord told me <br>
+I've been drinking, driving, now we'll never go home <br>
+I gon' stay in doubt because the weather's so cold, oh <br>
+ <br>
+[Bridge 2]<br>
+Feeling low sometimes when the light shines down <br>
+Makes me high <br>
+Can you feel it?<br>
+Can you feel it?<br>
+Feeling low sometimes when the light shines down <br>
+Makes me high <br>
+Can you feel it?<br>
+Can you feel it?<br>
+<br>
+[Chorus]<br>
+It started in Hollywood <br>
+Duh, duh-duh <br>
+Dreamin' of sharin' love <br>
+Duh, duh-duh <br>
+My tongue at a loss for words <br>
+Cause my feelings just said it all <br>
+<br>
+[Outro]<br>
+I look for ways to say, "I love you"<br>
+But I ain't into makin' love songs <br>
+Baby, I'm just rappin' to this LSD <br>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="css" scoped>
+div {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#lyrics {
+  /* background-color: #cbcbcb; */
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  /* e9e9e9; */
+}
+
+#cover_info {
+  display: flex;
+  justify-content: space-around;
+}
+
+#track_name {
+  color: white;
+  padding-left: 30rem;
+}
+
+#cover {
+  width: 650px;
+  height: 250px;
+  padding-right: 25rem;
+}
+
+#lyrics_content {
+  color: black;
+}
+
+
+
+#text {
+  font-size: 20px;
+  color: black;
+}
+
+</style>

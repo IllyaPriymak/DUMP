@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <h1>Artist</h1>
+    <h1>most viewed artist</h1>
     <!-- <HomeFooter /> -->
   </div>
 </template>
