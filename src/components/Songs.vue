@@ -10,11 +10,11 @@
           <router-link id="song_contant_link" to="/tyler">1. Tyler, The Creator - November</router-link>
           <router-link id="song_contant_link" to="/drake">2. Drake - Hotline Bling</router-link>
           <router-link id="song_contant_link" to="/asap">3. Asap Rocky - LSD</router-link>
-          <router-link id="song_contant_link" to="/">4. Mac Miller - Dang! (feat. Anderson .Paak)</router-link>
-          <router-link id="song_contant_link" to="/">5. Kanye West - Runaway (feat. Pusha T)</router-link>
-          <router-link id="song_contant_link" to="/">6. Nirvana - Smells Like Teen Spirit</router-link>
-          <router-link id="song_contant_link" to="/">7. Kendrick Lamar - Bitch, Don`t Kill My Vibe</router-link>
-          <router-link id="song_contant_link" to="/">8. Slowthai - Jiggle</router-link>
+          <router-link id="song_contant_link" to="/mac">4. Mac Miller - Dang! (feat. Anderson .Paak)</router-link>
+          <router-link id="song_contant_link" to="/kanye">5. Kanye West - Runaway (feat. Pusha T)</router-link>
+          <router-link id="song_contant_link" to="/nirvana">6. Nirvana - Smells Like Teen Spirit</router-link>
+          <router-link id="song_contant_link" to="/kendrick">7. Kendrick Lamar - Bitch, Don`t Kill My Vibe</router-link>
+          <router-link id="song_contant_link" to="/thai">8. Slowthai - Jiggle</router-link>
           <router-link id="song_contant_link" to="/">9. BROCKHAMOTON - NO HALO</router-link>
           <router-link id="song_contant_link" to="/">10. The Drums - Money</router-link>
           <router-link id="song_contant_link" to="/">11. 6LACK - PRBLMS</router-link>
