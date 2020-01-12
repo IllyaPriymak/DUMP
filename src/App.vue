@@ -7,7 +7,6 @@
         <router-link id="header_nav__link" to="/topcharts">Top Charts</router-link>
         <router-link id="header_nav__link" to="/songs">Songs</router-link>
         <router-link id="header_nav__link" to="/artist">Artist</router-link>
-        <router-link id="header_nav__link" to="/album">Album</router-link>
       </div>
       <div class="">
         <form>

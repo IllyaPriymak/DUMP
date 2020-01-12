@@ -3,7 +3,6 @@ import Router from "vue-router"
 import Home from "@/components/Home"
 import Artist from "@/components/Artist"
 import Songs from "@/components/Songs"
-import Album from "@/components/Album"
 import TopCharts from "@/components/TopCharts"
 import Tyler from "@/components/Songs.Content/Tyler"
 import Drake from "@/components/Songs.Content/Drake"
@@ -26,6 +25,14 @@ import Queen from "@/components/Songs.Content/Queen"
 import Travis from "@/components/Songs.Content/Travis"
 import Lean from "@/components/Songs.Content/Lean"
 import TArtist from "@/components/Artist.Content/TArtist"
+import KArtist from "@/components/Artist.Content/KArtist"
+import NArtist from "@/components/Artist.Content/NArtist"
+import DArtist from "@/components/Artist.Content/DArtist"
+import FArtist from "@/components/Artist.Content/FArtist"
+import Album from "@/components/Track.Album/Album"
+import Track from "@/components/Track.Album/Track"
+
+
 
 
 
@@ -55,11 +62,6 @@ export default new Router({
       path: "/songs",
       name: "songs",
       component: Songs
-    },
-    {
-      path: "/album",
-      name: "album",
-      component: Album
     },
     {
       path: "/tyler",
@@ -166,5 +168,35 @@ export default new Router({
       name: "tartist",
       component: TArtist
     },
+    {
+      path: "/nartist",
+      name: "nartist",
+      component: NArtist
+    },
+    {
+      path: "/kartist",
+      name: "kartist",
+      component: KArtist
+    },
+    {
+      path: "/dartist",
+      name: "dartist",
+      component: DArtist
+    },
+    {
+      path: "/fartist",
+      name: "fartist",
+      component: FArtist
+    },
+    {
+      path: "/album",
+      name: "album",
+      component: Album
+    },
+    {
+      path: "/track",
+      name: "track",
+      component: Track
+    }
   ]
 })

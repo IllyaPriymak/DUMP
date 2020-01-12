@@ -2,9 +2,13 @@
   <div>
     <div id="artist_images">
       <img id="images" src="images/bc8374e5bd2169cfcdce87353001dd27.jpg" alt="tyler">
+      <p>First track or album: <br>
+      THE ODD FUTURE TAPE - 2007 <br>
+      Last trak or album: <br>
+      IGOR - 2019 </p>
     </div>
     <div id="artist_information">
-      <p id="name">Tyler, the Creator - artist and creator </p>
+      <p id="name">Tyler, the Creator (Tyler Gregory Okonma - born March 6, 1991) - artist and creator </p>
       Most popular track of this artist:
       <div id="artist_track">
         <div id="first_block">
@@ -28,12 +32,12 @@
         Albums of this artist:
         <div class="albums">
           <div class="first_album">
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/600x600bf.png" alt="igor"> </router-link>
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/91OeYnLoCJL._SL1500_.jpg" alt="flowerboy"> </router-link>
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/s-l300.jpg" alt="cheerybomb"> </router-link>
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/81xs2JI9grL._SX355_.jpg" alt="wolf"> </router-link>
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/274px-Tyler_The_Creator_Goblin.jpg" alt="goblin"> </router-link>
-            <router-link id="album_link" to="/albums"><img id="cover" src="images/563e5b15bd4846fbb9c464fa8e1bd45a.jpg" alt="goblin"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/600x600bf.png" alt="igor"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/91OeYnLoCJL._SL1500_.jpg" alt="flowerboy"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/s-l300.jpg" alt="cheerybomb"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/81xs2JI9grL._SX355_.jpg" alt="wolf"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/274px-Tyler_The_Creator_Goblin.jpg" alt="goblin"> </router-link>
+            <router-link id="album_link" to="/album"><img id="cover" src="images/563e5b15bd4846fbb9c464fa8e1bd45a.jpg" alt="goblin"> </router-link>
           </div>
         </div>
       </div>
@@ -59,6 +63,9 @@ div{
   display: flex;
   padding-top: 5rem;
   padding-right: 10rem;
+  padding-left: 5rem;
+  flex-direction: column;
+  text-align: center;
 }
 
 #images {
