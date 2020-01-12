@@ -25,6 +25,8 @@ import Cudi from "@/components/Songs.Content/Cudi"
 import Queen from "@/components/Songs.Content/Queen"
 import Travis from "@/components/Songs.Content/Travis"
 import Lean from "@/components/Songs.Content/Lean"
+import TArtist from "@/components/Artist.Content/TArtist"
+
 
 
 
@@ -158,6 +160,11 @@ export default new Router({
       path: "/lean",
       name: "lean",
       component: Lean
-    }
+    },
+    {
+      path: "/tartist",
+      name: "tartist",
+      component: TArtist
+    },
   ]
 })

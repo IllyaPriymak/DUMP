@@ -154,7 +154,7 @@ div {
 
 #track_name {
   color: white;
-  padding-right: 30rem;
+  padding-left: 30rem;
 }
 
 #name_cover {
@@ -167,7 +167,7 @@ div {
 #cover {
   width: 650px;
   height: 250px;
-  padding-left: 25rem;
+  padding-right: 25rem;
 }
 #lyrics_content {
   color: white;

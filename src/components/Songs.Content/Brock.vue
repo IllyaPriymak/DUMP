@@ -127,7 +127,6 @@ div {
 
 #lyrics {
   background-color: white;
-  width: 65%;
   /* e9e9e9; */
 }
 
@@ -138,12 +137,13 @@ div {
 
 #track_name {
   color: white;
-  padding-right: 30rem;
+  padding-left: 30rem;
 }
 
 #name_cover {
   background-color: #63e2f9;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 110%;
 }
 
 
@@ -151,7 +151,7 @@ div {
 #cover {
   width: 650px;
   height: 250px;
-  padding-left: 25rem;
+  padding-right: 25rem;
 }
 #lyrics_content {
   color: white;

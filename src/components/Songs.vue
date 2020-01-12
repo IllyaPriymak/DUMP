@@ -91,10 +91,6 @@ div {
   font-size: 30px;
 }
 
-
-
-
-
 #song_contant_link:hover {
   color: #5c5cd6;
   background-color: #e9e9e9;
