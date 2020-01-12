@@ -4,13 +4,13 @@
       <div id="name_cover">
         <h1 id="track_name">Drake - Hotline Bling</h1>
         <img id="cover" src="images/Drake_-_Hotline_Bling.png" alt="hotline">
-        <p id="text">Produced: by Nineteen85 <br>
+        <p id="discription">Produced: by Nineteen85 <br>
           Album: Views<br></p>
         <br>
       </div>
       <div id="lyrics_content">
-        LYRICS:
         <p id="text">
+          <span id="word">LYRICS:</span><br>
           [Intro]
 You used to call me on my <br>
 You used to, you used to <br>
@@ -29,7 +29,8 @@ That can only mean one thing <br>
 [Verse 1] <br>
 Ever since I left the city, you <br>
 Got a reputation for yourself now <br>
-Everybody knows and I feel left out Girl, you got me down, you got me stressed out ‘Cause ever since I left the city, you <br>
+Everybody knows and I feel left out Girl, you got me down, you got me stressed out  <br>
+‘Cause ever since I left the city, you <br>
  Started wearing less and goin' out more <br>
 Glasses of champagne out on the dance floor <br>
 Hangin' with some girls I've never seen before <br>
@@ -51,7 +52,8 @@ You make me feel like I did you wrong <br>
 Going places where you don't belong <br>
 Ever since I left the city, you <br>
 You got exactly what you asked for <br>
-Running out of pages in your passport Hangin' with some girls I've never seen before <br>
+Running out of pages in your passport <br>
+Hangin' with some girls I've never seen before <br>
 <br>
 [Chorus]<br>
 You used to call me on my cell phone <br>
@@ -111,8 +113,7 @@ div {
 }
 
 #lyrics {
-  /* background-color: #cbcbcb; */
-  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  background-color: white;
   /* e9e9e9; */
 }
 
@@ -126,17 +127,32 @@ div {
   padding-right: 30rem;
 }
 
+#name_cover {
+  background-color: pink;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 130%;
+}
+
+
+
 #cover {
   width: 650px;
   height: 250px;
   padding-left: 25rem;
 }
-
 #lyrics_content {
-  color: black;
+  color: white;
+
 }
 
+#discription {
+  font-size: 25px;
+  color: white;
+}
 
+#word {
+  font-size: 35px;
+}
 
 #text {
   font-size: 20px;

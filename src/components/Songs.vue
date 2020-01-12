@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <div class="">
-      <h1>songs</h1>
+        <h1>songs</h1>
       <hr>
       <AddSongs
       @add-todo="AddTodo"
@@ -15,18 +15,18 @@
           <router-link id="song_contant_link" to="/nirvana">6. Nirvana - Smells Like Teen Spirit</router-link>
           <router-link id="song_contant_link" to="/kendrick">7. Kendrick Lamar - Bitch, Don`t Kill My Vibe</router-link>
           <router-link id="song_contant_link" to="/thai">8. Slowthai - Jiggle</router-link>
-          <router-link id="song_contant_link" to="/">9. BROCKHAMOTON - NO HALO</router-link>
-          <router-link id="song_contant_link" to="/">10. The Drums - Money</router-link>
-          <router-link id="song_contant_link" to="/">11. 6LACK - PRBLMS</router-link>
-          <router-link id="song_contant_link" to="/">12. Frank Ocean - Chanel</router-link>
-          <router-link id="song_contant_link" to="/">13. Bones - HDMI</router-link>
-          <router-link id="song_contant_link" to="/">14. Childish Gambino - Zombies</router-link>
-          <router-link id="song_contant_link" to="/">15. Ivan Dorn - Such a Bad Surprise</router-link>
-          <router-link id="song_contant_link" to="/">16. Saba - Life</router-link>
-          <router-link id="song_contant_link" to="/">17. Kid Cudi - Man on the Moon</router-link>
-          <router-link id="song_contant_link" to="/">18. Queen - Another One Bites the Dust</router-link>
-          <router-link id="song_contant_link" to="/">19. Travis Scott - goosedumps</router-link>
-          <router-link id="song_contant_link" to="/">20. Yung Lean - Hurt</router-link>
+          <router-link id="song_contant_link" to="/brock">9. BROCKHAMOTON - NO HALO</router-link>
+          <router-link id="song_contant_link" to="/drums">10. The Drums - Money</router-link>
+          <router-link id="song_contant_link" to="/black">11. 6LACK - PRBLMS</router-link>
+          <router-link id="song_contant_link" to="/frank">12. Frank Ocean - Chanel</router-link>
+          <router-link id="song_contant_link" to="/bones">13. Bones - HDMI</router-link>
+          <router-link id="song_contant_link" to="/gambino">14. Childish Gambino - Zombies</router-link>
+          <router-link id="song_contant_link" to="/dorn">15. Ivan Dorn - Such a Bad Surprise</router-link>
+          <router-link id="song_contant_link" to="/saba">16. Saba - Life</router-link>
+          <router-link id="song_contant_link" to="/cudi">17. Kid Cudi - Man on the Moon</router-link>
+          <router-link id="song_contant_link" to="/queen">18. Queen - Another One Bites the Dust</router-link>
+          <router-link id="song_contant_link" to="/travis">19. Travis Scott - goosedumps</router-link>
+          <router-link id="song_contant_link" to="/lean">20. Yung Lean - Hurt</router-link>
       </div>
       <h3>more soon :)</h3>
 
@@ -90,6 +90,10 @@ div {
   color: black;
   font-size: 30px;
 }
+
+
+
+
 
 #song_contant_link:hover {
   color: #5c5cd6;

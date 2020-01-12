@@ -4,13 +4,13 @@
       <div id="name_cover">
         <h1 id="track_name">Nirvana - Smells Like Teen Spirit</h1>
         <img id="cover" src="images/274px-Smells_Like_Teen_Spirit.jpg" alt="smells">
-        <p id="text">Produced: by Nirvana & Butch Vig <br>
+        <p id="discription">Produced: by Nirvana & Butch Vig <br>
           Album: Nevermind</p>
         <br>
       </div>
       <div id="lyrics_content">
-        LYRICS:
         <p id="text">
+          <span id="word">LYRICS:</span><br>
           [Verse 1] <br>
 Load up on guns, bring your friends <br>
 It's fun to lose and to pretend <br>
@@ -106,8 +106,8 @@ div {
 }
 
 #lyrics {
-  /* background-color: #cbcbcb; */
-  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  background-color: white;
+  width: 65%;
   /* e9e9e9; */
 }
 
@@ -118,20 +118,34 @@ div {
 
 #track_name {
   color: white;
-  padding-right: 20rem;
+  padding-right: 30rem;
 }
+
+#name_cover {
+  background-color: #a2c1bb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
 
 #cover {
   width: 650px;
   height: 250px;
   padding-left: 25rem;
 }
-
 #lyrics_content {
-  color: black;
+  color: white;
+
 }
 
+#discription {
+  font-size: 25px;
+  color: white;
+}
 
+#word {
+  font-size: 35px;
+}
 
 #text {
   font-size: 20px;

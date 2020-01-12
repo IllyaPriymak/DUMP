@@ -4,13 +4,13 @@
       <div id="name_cover">
         <h1 id="track_name">Kendrick Lamar - Bitch, Don`t Kill My Vibe</h1>
         <img id="cover" src="images/gdggdgd.jpeg" alt="vibe">
-        <p id="text">Produced: by Sounwave <br>
+        <p id="discription">Produced: by Sounwave <br>
           Album: good kid, m.A.A.d city (Deluxe Version)</p>
         <br>
       </div>
       <div id="lyrics_content">
-        LYRICS:
         <p id="text">
+          <span id="word">LYRICS:</span><br>
           [Chorus] <br>
 I am a sinner who's probably gonna sin again <br>
 Lord, forgive me! Lord, forgive me! <br>
@@ -148,8 +148,8 @@ div {
 }
 
 #lyrics {
-  /* background-color: #cbcbcb; */
-  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  background-color: white;
+  width: 65%;
   /* e9e9e9; */
 }
 
@@ -160,20 +160,34 @@ div {
 
 #track_name {
   color: white;
-  padding-left: 30rem;
+  padding-right: 30rem;
 }
+
+#name_cover {
+  background-color: #498e8b;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
 
 #cover {
   width: 650px;
   height: 250px;
-  padding-right: 25rem;
+  padding-left: 25rem;
 }
-
 #lyrics_content {
-  color: black;
+  color: white;
+
 }
 
+#discription {
+  font-size: 25px;
+  color: white;
+}
 
+#word {
+  font-size: 35px;
+}
 
 #text {
   font-size: 20px;

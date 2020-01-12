@@ -4,13 +4,14 @@
       <div id="name_cover">
         <h1 id="track_name">Tyler, the Creator - November</h1>
         <img id="cover" src="images/gg1bwdgm8xm01.png" alt="november">
-        <p id="text">Produced by: Tyler, The Creator <br>
+        <p id="discription">Produced by: Tyler, The Creator <br>
           Album: Flower Boy</p>
         <br>
       </div>
       <div id="lyrics_content">
-        LYRICS:
-        <p id="text">[Intro]<br>
+        <p id="text">
+          <span id="word">LYRICS:</span><br>
+          [Intro]<br>
           Say some more, never want to talk about it <br>
           Feel a way, woah <br>
           Feel a way, woah <br>
@@ -130,9 +131,7 @@ div {
 }
 
 #lyrics {
-  /* background-color: #cbcbcb; */
-  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
-  /* e9e9e9; */
+  background-color: white;
 }
 
 #cover_info {
@@ -145,17 +144,30 @@ div {
   padding-left: 30rem;
 }
 
+#name_cover {
+  background-color: #debb8a;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 100%;
+}
+
 #cover {
   width: 650px;
   height: 250px;
   padding-right: 25rem;
 }
-
 #lyrics_content {
-  color: black;
+  color: white;
+
 }
 
+#discription {
+  font-size: 25px;
+  color: white;
+}
 
+#word {
+  font-size: 35px;
+}
 
 #text {
   font-size: 20px;

@@ -100,7 +100,6 @@ button:before {
 
 h1 {
   font-size: 40px;
-  margin-right: 70px;
   color: #5c5cd6;
 }
 

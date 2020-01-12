@@ -4,13 +4,13 @@
       <div id="name_cover">
         <h1 id="track_name">Mac Miller - Dang! (feat. Anderson .Paak)</h1>
         <img id="cover" src="images/m1000x1000.jpeg" alt="bang">
-        <p id="text">Produced: by Nineteen85 <br>
+        <p id="discription">Produced: by Nineteen85 <br>
           Album: Views<br></p>
         <br>
       </div>
       <div id="lyrics_content">
-        LYRICS:
         <p id="text">
+          <span id="word">LYRICS:</span><br>
           [Chorus: Anderson .Paak]<br>
 I can't keep on losing you over complications <br>
 Gone too soon, wait! We was just hangin' <br>
@@ -138,8 +138,8 @@ div {
 }
 
 #lyrics {
-  /* background-color: #cbcbcb; */
-  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  background-color: white;
+  width: 65%;
   /* e9e9e9; */
 }
 
@@ -150,20 +150,34 @@ div {
 
 #track_name {
   color: white;
-  padding-right: 20rem;
+  padding-right: 30rem;
 }
+
+#name_cover {
+  background-color: #ddc1c0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
 
 #cover {
   width: 650px;
   height: 250px;
   padding-left: 25rem;
 }
-
 #lyrics_content {
-  color: black;
+  color: white;
+
 }
 
+#discription {
+  font-size: 25px;
+  color: white;
+}
 
+#word {
+  font-size: 35px;
+}
 
 #text {
   font-size: 20px;
