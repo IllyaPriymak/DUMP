@@ -39,6 +39,7 @@ div {
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .btn_footer {

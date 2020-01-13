@@ -89,7 +89,9 @@ div {
 #lyrics {
   background-color: white;
   width: 70%;
-  /* e9e9e9; */
+  /* font-family: 'Concert One', cursive; */
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 #cover_info {

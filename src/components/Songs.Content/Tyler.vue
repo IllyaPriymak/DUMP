@@ -129,6 +129,7 @@ div {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 #lyrics {

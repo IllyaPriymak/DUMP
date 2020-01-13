@@ -23,6 +23,7 @@ div {
   text-align: center;
   align-items: center;
   height: 900px;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 body {

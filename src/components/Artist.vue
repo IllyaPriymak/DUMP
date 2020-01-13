@@ -37,6 +37,7 @@ export default {
 <style lang="css" scoped>
 div {
   text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 #artist {

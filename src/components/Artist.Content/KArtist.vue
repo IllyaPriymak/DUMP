@@ -60,6 +60,7 @@ export default {
 div{
   display: flex;
   justify-content: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 

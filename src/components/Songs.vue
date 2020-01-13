@@ -103,6 +103,9 @@ methods: {
 <style lang="css" scoped>
 div {
   text-align: center;
+  /* font-family: 'Concert One', cursive; */
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 

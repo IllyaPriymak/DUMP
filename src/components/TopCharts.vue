@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="everything">
+  <div>
     <h1>charts</h1>
     <div id="contant">
       <div id="first_main_card">
@@ -47,6 +47,7 @@ export default {
 <style lang="css" scoped>
 div {
   text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 #name_size {
