@@ -30,6 +30,8 @@ body {
 }
 
 
+
+
 #back_foto {
   position: absolute;
   opacity: .3;
@@ -41,6 +43,8 @@ body {
   position: relative;
 }
 
+
+
 h1 {
   font-size: 60px;
   color: #5c5cd6;
@@ -48,5 +52,9 @@ h1 {
 
 h2 {
   font-size: 35px;
+}
+
+h3 {
+  font-size: 60px;
 }
 </style>

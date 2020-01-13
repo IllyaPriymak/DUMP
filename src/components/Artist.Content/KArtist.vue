@@ -41,6 +41,9 @@
             <router-link id="album_link" to="/album"><img id="cover" src="images/1351763789_20100904-kendrickod.jpg" alt="overlydedicated"> </router-link>
           </div>
         </div>
+        <div id="discription">
+          <p>New information about song and album lyrics soon!</p>
+        </div>
       </div>
     </div>
 

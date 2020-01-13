@@ -1,12 +1,11 @@
 <template lang="html">
   <div>
-    <div class="">
+    <div  id="main_contant">
         <h1>songs</h1>
-      <hr>
       <!-- <AddSongs
       @add-todo="AddTodo"
       /> -->
-      <select>
+      <select id="list">
         <option label="default" value="1" selected>default</option>
         <option>name (a-z)</option>
         <option disabled>most interest</option>
@@ -106,6 +105,9 @@ div {
   text-align: center;
 }
 
+
+
+
 #song_contant_link {
   border: 1px solid black;
   display: flex;
@@ -116,6 +118,9 @@ div {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+#list {
 }
 
 #song_contant_link:hover {

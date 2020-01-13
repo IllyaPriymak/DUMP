@@ -5,6 +5,7 @@
       <div id="first_main_card">
         <p id="word_card">Most viewed of this month <br>
         Top 8 lyrics : </p>
+        <h6 id="name_size">by views in DUMP</h6>
         <div id="card_contant">
           <router-link id="song_contant_link" to="/kendrick">1. Kendrick Lamar - Bitch, Don`t Kill My Vibe <span id="views">1350 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
           <router-link id="song_contant_link" to="/queen">2. Queen - Another One Bites the Dust <span id="views">1284 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
@@ -19,6 +20,7 @@
       <div id="second_main_card">
         <p id="word_card">Most viewed of oll time <br>
         Top 5 : </p>
+        <h6 id="name_size">by views in DUMP</h6>
         <div id="card_contant">
           <router-link id="song_contant_link" to="/tyler">1. Tyler, The Creator - November <span id="views">10388 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
           <router-link id="song_contant_link" to="/frank">2. Frank Ocean - Chanel <span id="views">10088 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
@@ -28,13 +30,16 @@
         </div>
       </div>
     </div>
+    <HomeFooter />
   </div>
 </template>
 
 <script>
+import HomeFooter from "@/components/Home.Compon/HomeFooter"
 
 export default {
   components: {
+    HomeFooter
   }
 }
 </script>
@@ -44,9 +49,14 @@ div {
   text-align: center;
 }
 
+#name_size {
+  padding-top: 10px;
+}
+
 #contant {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10rem;
 }
 
 #views {
