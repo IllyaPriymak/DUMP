@@ -5,7 +5,8 @@
       <p>First track or album: <br>
       Youngest Head Nigga in Charge (Hub City Threat: Minor of the Year) - 2003 <br>
       Last trak or album: <br>
-      DAMN. - 2017 </p>
+      DAMN. - 2017 <br> <br>
+      <span id="size_viewes">638922 <img id="viewes" src="images/viewes.png" alt="viewes"> off oll time</span> </p>
     </div>
     <div id="artist_information">
       <p id="name">Kendrick Lamar Duckworth (born June 17, 1987) is an American rapper, songwriter, and record producer. </p>
@@ -117,6 +118,15 @@ div{
 
 #cover:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#size_viewes {
+  font-size: 20px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 </style>

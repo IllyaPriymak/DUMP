@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Kid Cudi - Man on the Moon</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Kid Cudi - Man on the Moon</router-link></h1>
         <img id="cover" src="images/a9c1e229fe264ff9951e4587690f34c5.jpg" alt="moon">
         <p id="discription">Produced: by Nosaj Thing <br>
           Album: A Kid Named Cudi</p>
@@ -135,6 +136,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

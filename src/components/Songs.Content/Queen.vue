@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Queen - Another One Bites the Dust</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Queen - Another One Bites the Dust</router-link></h1>
         <img id="cover" src="images/R-706853-1510235933-2499.jpeg.jpg" alt="dust">
         <p id="discription">Produced: by Reinhold Mack, Josh MacRae & Queen <br>
           Album: The Game</p>
@@ -139,6 +140,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

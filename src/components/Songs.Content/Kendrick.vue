@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Kendrick Lamar - Bitch, Don`t Kill My Vibe</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/kartist">
+        Kendrick Lamar - Bitch, Don`t Kill My Vibe</router-link></h1>
         <img id="cover" src="images/gdggdgd.jpeg" alt="vibe">
         <p id="discription">Produced: by Sounwave <br>
           Album: good kid, m.A.A.d city (Deluxe Version)</p>
@@ -166,6 +167,7 @@ div {
 #name_cover {
   background-color: #498e8b;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 110%;
 }
 
 
@@ -178,6 +180,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

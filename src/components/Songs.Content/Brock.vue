@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">BROCKHAMOTON - NO HALO</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        BROCKHAMOTON - NO HALO</router-link></h1>
         <img id="cover" src="images/a11149cfbded33286fdf2531d1b22897.1000x1000x1.jpg" alt="halo">
         <p id="discription">Produced by Jabari Manwa <br>
           Album GINGER</p>
@@ -156,6 +157,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

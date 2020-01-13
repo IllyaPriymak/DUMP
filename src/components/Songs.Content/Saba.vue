@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Saba - Life</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Saba - Life</router-link></h1>
         <img id="cover" src="images/care-for-me.jpg" alt="life">
         <p id="discription">Produced: by Saba, daedaePIVOT & Daoud <br>
           Album: CARE FOR ME</p>
@@ -127,6 +128,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

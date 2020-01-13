@@ -21,11 +21,19 @@
 
  <script>
 
-export default {
+  export default {
   name: 'app',
   components: {
   },
 }
+
+// let input = document.getElementById("nav_search");
+// input.addEventListener("keyup", ()=>{
+//   let filter = input.value.toUpperCase();
+//   console.log(filter);
+//   let div = document.getElementById("song_contant")
+//   console.log(div);
+// })
 </script>
 
 <style>

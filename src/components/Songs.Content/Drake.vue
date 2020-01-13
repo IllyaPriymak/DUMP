@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Drake - Hotline Bling</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Drake - Hotline Bling</router-link></h1>
         <img id="cover" src="images/Drake_-_Hotline_Bling.png" alt="hotline">
         <p id="discription">Produced: by Nineteen85 <br>
           Album: Views<br></p>
@@ -144,6 +145,13 @@ div {
   color: white;
 
 }
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
 
 #discription {
   font-size: 25px;

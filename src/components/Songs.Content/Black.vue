@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">6LACK - PRBLMS</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        6LACK - PRBLMS</router-link></h1>
         <img id="cover" src="images/dc1edb88717eb88883b219959accc6a1.jpg" alt="prblms">
         <p id="discription">Produced: by NOVA (Soundsbynova) <br>
           Album: FREE 6LACK
@@ -145,6 +146,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

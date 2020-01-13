@@ -50,7 +50,7 @@ div {
 }
 
 #artist_link:hover{
-  color: green;
+color: #5c5cd6;
 }
 
 #artist_foto {

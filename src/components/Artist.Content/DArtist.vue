@@ -5,7 +5,8 @@
       <p>First track or album: <br>
       Summertime! - 2009 <br>
       Last trak or album: <br>
-      I Didn`t Realize B/W You Lied - 2019 </p>
+      I Didn`t Realize B/W You Lied - 2019 <br> <br>
+      <span id="size_viewes">299813 <img id="viewes" src="images/viewes.png" alt="viewes"> off oll time </span> </p>
     </div>
     <div id="artist_information">
       <p id="name">The Drums are an American indie pop band from New York City. </p>
@@ -13,7 +14,7 @@
       <div id="artist_track">
         <div id="first_block">
           <ol>
-            <li><router-link id="track_link" to="/track"> Money</router-link></li>
+            <li><router-link id="track_link" to="/drums"> Money</router-link></li>
             <li><router-link id="track_link" to="/track"> Lets Go Surfing</router-link></li>
             <li><router-link id="track_link" to="/track"> Days</router-link></li>
             <li><router-link id="track_link" to="/track"> I Don`t Know How to Love</router-link></li>
@@ -116,6 +117,15 @@ div{
 
 #cover:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#size_viewes {
+  font-size: 20px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 </style>

@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">The Drums - Money</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/dartist">
+        The Drums - Money</router-link></h1>
         <img id="cover" src="images/thedrums-money.jpeg" alt="money">
         <p id="discription">Produced: by Connor Hanwick, Jacob Graham & Jonny Pierce <br>
           Album Portamento
@@ -88,6 +89,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

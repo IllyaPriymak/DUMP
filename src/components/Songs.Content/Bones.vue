@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Bones - HDMI</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Bones - HDMI</router-link></h1>
         <img id="cover" src="images/96f67adf1a17c429f3572f5193c39d0a.500x500x1.jpg" alt="hdmi">
         <p id="discription">Produced: by Antonio <br>
           Album: Rotten
@@ -119,6 +120,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

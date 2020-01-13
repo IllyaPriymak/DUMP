@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Asap Rocky - LSD</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Asap Rocky - LSD</router-link></h1>
         <img id="cover" src="images/asap-y-lsd-cover.jpg" alt="november">
         <p id="discription">Produced: by Hector Delgado, A$AP Rocky, FnZ & Jim Jonsin <br>
           Album: AT.LONG.LAST.A$AP</p>
@@ -118,6 +119,14 @@ div {
   color: white;
 
 }
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
 
 #discription {
   font-size: 25px;

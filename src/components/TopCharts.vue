@@ -6,25 +6,25 @@
         <p id="word_card">Most viewed of this month <br>
         Top 8 lyrics : </p>
         <div id="card_contant">
-          <router-link id="song_contant_link" to="/kendrick">1. Kendrick Lamar - Bitch, Don`t Kill My Vibe <span id="views">1350 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/queen">2. Queen - Another One Bites the Dust <span id="views">1284 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/drums">3. The Drums - Money <span id="views">1282 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/kanye">4. Kanye West - Runaway (feat. Pusha T) <span id="views">1240 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/drake">5. Drake - Hotline Bling <span id="views">1200 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/cudi">6. Kid Cudi - Man on the Moon <span id="views">1155 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/gambino">7. Childish Gambino - Zombies <span id="views">1135 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/frank">8. Frank Ocean - Chanelm <span id="views">987 viewes</span></router-link>
+          <router-link id="song_contant_link" to="/kendrick">1. Kendrick Lamar - Bitch, Don`t Kill My Vibe <span id="views">1350 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/queen">2. Queen - Another One Bites the Dust <span id="views">1284 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/drums">3. The Drums - Money <span id="views">1282 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/kanye">4. Kanye West - Runaway (feat. Pusha T) <span id="views">1240 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/drake">5. Drake - Hotline Bling <span id="views">1200 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/cudi">6. Kid Cudi - Man on the Moon <span id="views">1155 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/gambino">7. Childish Gambino - Zombies <span id="views">1135 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/frank">8. Frank Ocean - Chanelm <span id="views">987 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
         </div>
       </div>
       <div id="second_main_card">
         <p id="word_card">Most viewed of oll time <br>
         Top 5 : </p>
         <div id="card_contant">
-          <router-link id="song_contant_link" to="/tyler">1. Tyler, The Creator - November <span id="views">10388 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/frank">2. Frank Ocean - Chanel <span id="views">10088 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/queen">3. Queen - Another One Bites the Dust <span id="views">9088 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/cudi">4. Kid Cudi - Man on the Moon <span id="views">9012 viewes</span></router-link>
-          <router-link id="song_contant_link" to="/kendrick">5. Kendrick Lamar - Bitch, Don`t Kill My Vibe <span id="views">8921 viewes</span></router-link>
+          <router-link id="song_contant_link" to="/tyler">1. Tyler, The Creator - November <span id="views">10388 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/frank">2. Frank Ocean - Chanel <span id="views">10088 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/queen">3. Queen - Another One Bites the Dust <span id="views">9088 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/cudi">4. Kid Cudi - Man on the Moon <span id="views">9012 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
+          <router-link id="song_contant_link" to="/kendrick">5. Kendrick Lamar - Bitch, Don`t Kill My Vibe <span id="views">8921 <img id="viewes" src="images/viewes.png" alt="viewes"></span></router-link>
         </div>
       </div>
     </div>
@@ -96,6 +96,11 @@ div {
   display: flex;
   flex-direction: column;
   padding-top: 15px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 h1{

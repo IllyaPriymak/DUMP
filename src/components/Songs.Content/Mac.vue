@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Mac Miller - Dang! (feat. Anderson .Paak)</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Mac Miller - Dang! (feat. Anderson .Paak)</router-link></h1>
         <img id="cover" src="images/m1000x1000.jpeg" alt="bang">
         <p id="discription">Produced: by Nineteen85 <br>
           Album: Views<br></p>
@@ -156,6 +157,7 @@ div {
 #name_cover {
   background-color: #ddc1c0;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 110%;
 }
 
 
@@ -168,6 +170,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

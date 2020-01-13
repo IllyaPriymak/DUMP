@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Tyler, the Creator - November</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/tartist">
+        Tyler, the Creator - November</router-link></h1>
         <img id="cover" src="images/gg1bwdgm8xm01.png" alt="november">
         <p id="discription">Produced by: Tyler, The Creator <br>
           Album: Flower Boy</p>
@@ -147,7 +148,7 @@ div {
 #name_cover {
   background-color: #debb8a;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  width: 100%;
+  width: 110%;
 }
 
 #cover {
@@ -159,6 +160,13 @@ div {
   color: white;
 
 }
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
 
 #discription {
   font-size: 25px;

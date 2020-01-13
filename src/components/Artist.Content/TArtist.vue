@@ -5,10 +5,11 @@
       <p>First track or album: <br>
       THE ODD FUTURE TAPE - 2007 <br>
       Last trak or album: <br>
-      IGOR - 2019 </p>
+      IGOR - 2019 <br> <br>
+      <span id="size_viewes">503494 <img id="viewes" src="images/viewes.png" alt="viewes"> off oll time </span> </p>
     </div>
     <div id="artist_information">
-      <p id="name">Tyler, the Creator (Tyler Gregory Okonma - born March 6, 1991) - artist and creator </p>
+        <p id="name">Tyler, the Creator (Tyler Gregory Okonma - born March 6, 1991) - artist and creator</p>
       Most popular track of this artist:
       <div id="artist_track">
         <div id="first_block">
@@ -117,6 +118,15 @@ div{
 
 #cover:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#size_viewes {
+  font-size: 20px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 </style>

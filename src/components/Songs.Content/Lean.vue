@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Yung Lean - Hurt</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Yung Lean - Hurt</router-link></h1>
         <img id="cover" src="images/Unknown_Death_2002.jpg" alt="hurt">
         <p id="discription">Produced: by Suicideyear <br>
           Album: Unknown Death 2002</p>
@@ -166,6 +167,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

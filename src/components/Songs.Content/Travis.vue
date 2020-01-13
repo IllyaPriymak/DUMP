@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Travis Scott - goosedumps</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Travis Scott - goosedumps</router-link></h1>
         <img id="cover" src="images/1567438285_6a1753313ed6cf3515b78ae38e1cdaa1.jpg" alt="goos">
         <p id="discription">Featuring: Kendrick Lamar <br>
           Produced: by Yung Exclusive, CuBeatz & Cardo <br>
@@ -149,6 +150,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

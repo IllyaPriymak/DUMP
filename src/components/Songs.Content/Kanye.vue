@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Kanye West - Runaway (feat. Pusha T)</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Kanye West - Runaway (feat. Pusha T)</router-link></h1>
         <img id="cover" src="images/274px-Runaway_Kanye_West_artwork.png" alt="ranaway">
         <p id="discription">Featuring: Pusha T <br>
           Produced: by Kanye West <br>
@@ -160,6 +161,7 @@ div {
 #name_cover {
   background-color: #4a987f;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 110%;
 }
 
 
@@ -172,6 +174,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

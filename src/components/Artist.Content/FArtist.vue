@@ -5,7 +5,8 @@
       <p>First track or album: <br>
       Nostalgia, Ultra - 2011 <br>
       Last trak or album: <br>
-      In My Room - 2019 </p>
+      In My Room - 2019 <br> <br>
+     <span id="size_viewes">448209 <img id="viewes" src="images/viewes.png" alt="viewes"> off oll time </span> </p>
     </div>
     <div id="artist_information">
       <p id="name">Frank Ocean (born Christopher Edwin Cooksey on October 28, 1987. <br>
@@ -115,6 +116,15 @@ div{
 
 #cover:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#size_viewes {
+  font-size: 20px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 </style>

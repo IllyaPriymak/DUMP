@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
       <span>
-      <!-- <strong>{{index + 1}}.</strong> -->
-      {{todo.title}}
+       <strong>{{index + 1}}.</strong>
+       {{todo.title}}
     </span>
     <button
         v-on:click="$emit('remove-todo', todo.id)"

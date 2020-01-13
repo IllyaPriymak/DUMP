@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Nirvana - Smells Like Teen Spirit</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/nartist">
+        Nirvana - Smells Like Teen Spirit</router-link></h1>
         <img id="cover" src="images/274px-Smells_Like_Teen_Spirit.jpg" alt="smells">
         <p id="discription">Produced: by Nirvana & Butch Vig <br>
           Album: Nevermind</p>
@@ -124,6 +125,7 @@ div {
 #name_cover {
   background-color: #a2c1bb;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 110%;
 }
 
 
@@ -136,6 +138,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

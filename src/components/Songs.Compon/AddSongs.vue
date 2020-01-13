@@ -1,4 +1,4 @@
-<template lang="html">
+<!-- <template lang="html">
   <form id="form_content" @submit.prevent="onSubmit">
     <input id="search_content" type="text" v-model="title">
     <button id="add_button" type="submit">add new song</button>
@@ -42,4 +42,4 @@ export default {
   border-radius: 10%;
 }
 
-</style>
+</style> -->

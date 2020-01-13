@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Slowthai - Jiggle</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Slowthai - Jiggle</router-link></h1>
         <img id="cover" src="images/b5f31047498eb1e14a2534055806e94b.500x500x1.jpg" alt="jiggle">
         <p id="discription">Produced: by slowthai <br>
           Album: Jiggle</p>
@@ -151,6 +152,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {

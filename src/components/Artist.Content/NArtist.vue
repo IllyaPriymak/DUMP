@@ -5,7 +5,8 @@
       <p>First track or album: <br>
         Love Buzz - 1970 <br>
       Last trak or album: <br>
-      In Utero (20th Anniversary Deluxe Edition) - 1993 </p>
+      In Utero (20th Anniversary Deluxe Edition) - 1993 <br> <br>
+      <span id="size_viewes">303064 <img id="viewes" src="images/viewes.png" alt="viewes"> off oll time</span> </p>
     </div>
     <div id="artist_information">
       <p id="name">Nirvana. American rock band formed in Aberdeen, Washington in 1987.</p>
@@ -13,7 +14,7 @@
       <div id="artist_track">
         <div id="first_block">
           <ol>
-            <li><router-link id="track_link" to="/track"> Smells Like Teen Spirit</router-link></li>
+            <li><router-link id="track_link" to="/nirvana"> Smells Like Teen Spirit</router-link></li>
             <li><router-link id="track_link" to="/track"> Come As You Are</router-link></li>
             <li><router-link id="track_link" to="/track"> Lithium</router-link></li>
             <li><router-link id="track_link" to="/track"> The Man Who Sold the World</router-link></li>
@@ -116,6 +117,15 @@ div{
 
 #cover:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#size_viewes {
+  font-size: 20px;
+}
+
+#viewes {
+  width: 20px;
+  height: 13px;
 }
 
 </style>

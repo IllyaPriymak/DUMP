@@ -2,7 +2,8 @@
   <div>
     <div id="lyrics">
       <div id="name_cover">
-        <h1 id="track_name">Ivan Dorn - Such a Bad Surprise</h1>
+        <h1 id="track_name"><router-link id="artist_link" to="/track">
+        Ivan Dorn - Such a Bad Surprise</router-link></h1>
         <img id="cover" src="images/6d19a83bb575e096f4984f062c821b87.1000x1000x1.jpg" alt="surprise">
         <p id="discription">Produced: by Иван Дорн (Ivan Dorn)<br>
           Album: OTD</p>
@@ -132,6 +133,12 @@ div {
 #lyrics_content {
   color: white;
 
+}
+
+#artist_link{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #discription {
