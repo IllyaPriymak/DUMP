@@ -1,7 +1,7 @@
-<!-- <template lang="html">
+<template lang="html">
   <form id="form_content" @submit.prevent="onSubmit">
     <input id="search_content" type="text" v-model="title">
-    <button id="add_button" type="submit">add new song</button>
+    <button id="add_button" type="submit">find lyrics by first words</button>
   </form>
 </template>
 
@@ -33,13 +33,18 @@ export default {
 #form_content {
   display:flex;
   padding-bottom: 1rem;
+  width: 350px;
+
 }
 #search_content{
   background-color: white;
 }
 
 #add_button {
-  border-radius: 10%;
+  border-radius: 0 5px 5px 0;
+  width: 100px;
+  color: white;
+  background-color: black;
 }
 
-</style> -->
+</style>

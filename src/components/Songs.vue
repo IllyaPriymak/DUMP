@@ -2,9 +2,9 @@
   <div>
     <div  id="main_contant">
         <h1>songs</h1>
-      <!-- <AddSongs
+      <AddSongs
       @add-todo="AddTodo"
-      /> -->
+      />
       <select id="list">
         <option label="default" value="1" selected>default</option>
         <option>name (a-z)</option>
@@ -34,41 +34,21 @@
           <router-link id="song_contant_link" to="/travis"><li>Travis Scott - goosedumps</li></router-link>
           <router-link id="song_contant_link" to="/lean"><li>Yung Lean - Hurt</li></router-link>
         </ol>
-          <!-- <router-link id="song_contant_link" to="/tyler">1. Tyler, The Creator - November</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/drake">2. Drake - Hotline Bling</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/asap">3. Asap Rocky - LSD</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/mac">4. Mac Miller - Dang! (feat. Anderson .Paak)</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/kanye">5. Kanye West - Runaway (feat. Pusha T)</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/nirvana">6. Nirvana - Smells Like Teen Spirit</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/kendrick">7. Kendrick Lamar - Bitch, Don`t Kill My Vibe</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/thai">8. Slowthai - Jiggle</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/brock">9. BROCKHAMOTON - NO HALO</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/drums">10. The Drums - Money</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/black">11. 6LACK - PRBLMS</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/frank">12. Frank Ocean - Chanel</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/bones">13. Bones - HDMI</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/gambino">14. Childish Gambino - Zombies</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/dorn">15. Ivan Dorn - Such a Bad Surprise</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/saba">16. Saba - Life</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/cudi">17. Kid Cudi - Man on the Moon</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/queen">18. Queen - Another One Bites the Dust</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/travis">19. Travis Scott - goosedumps</router-link> -->
-          <!-- <router-link id="song_contant_link" to="/lean">20. Yung Lean - Hurt</router-link> -->
       </div>
       <h3>more soon :)</h3>
 
-      <!-- <SongsList
+      <SongsList
       v-bind:todos="todos"
       @remove-todo="removeTodo"
-      /> -->
+      />
     </div>
     <router-view />
   </div>
 </template>
 
 <script>
-// import SongsList from "@/components/Songs.Compon/SongsList"
-// import AddSongs from "@/components/Songs.Compon/AddSongs"
+import SongsList from "@/components/Songs.Compon/SongsList"
+import AddSongs from "@/components/Songs.Compon/AddSongs"
 
 export default {
   name: 'app',
@@ -94,8 +74,8 @@ methods: {
   }
 },
   components: {
-    // SongsList,
-    // AddSongs
+    SongsList,
+    AddSongs
   }
 }
 </script>
@@ -103,8 +83,6 @@ methods: {
 <style lang="css" scoped>
 div {
   text-align: center;
-  /* font-family: 'Concert One', cursive; */
-  /* font-family: 'Fredoka One', cursive; */
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 

@@ -2,13 +2,13 @@
   <div id="app">
     <div id="header">
       <h1>DUMP - lyrics track platform.  </h1>
-      <div class="">
+      <div>
         <router-link id="header_nav__link" to="/">Home</router-link>
         <router-link id="header_nav__link" to="/topcharts">Top Charts</router-link>
         <router-link id="header_nav__link" to="/songs">Songs</router-link>
         <router-link id="header_nav__link" to="/artist">Artist</router-link>
       </div>
-      <div class="">
+      <div>
         <form>
           <input id="nav_search" type="search" placeholder="Type here...">
           <button id="btn_search" type="search">Search</button>
@@ -38,7 +38,8 @@
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
+  font-family: 'Sawarabi Mincho', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
