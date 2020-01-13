@@ -41,10 +41,10 @@ export default {
 }
 
 #add_button {
-  border-radius: 0 5px 5px 0;
   width: 100px;
+  background: black;
+  border-radius: 0 5px 5px 0;
   color: white;
-  background-color: black;
 }
 
 </style>
